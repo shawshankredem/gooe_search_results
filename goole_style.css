@@ -3,28 +3,53 @@ body{
 }
 #top_b{
 	background: #f2f2f2;
-	top: 0;
-	position: fixed;
+	top: -10;
+	left: -10;
+	position: relative;
 	width: 100%;
+	margin: 0;
 }
 #toplogo{
 	padding: 5px 5px 5px 5px;
 	vertical-align: middle;
+	position: relative;
 }
 #searchbar {
 	max-width: 529px;
 	width: 529px;
 	padding: 10px 10px 10px 10px;
-	margin-top: 0px;
+	margin: 0 -4px 0 0;
 	font-size: 16px;
+	vertical-align: middle;
+	position: relative;
 }
 #bb{
 	padding: 10px 10px 10px 10px;
 	height: 40px;
-	margin-top: 0px;
 	width: 40px;
 	background: #4285f4;
 	border-radius: 2px;
 	border: none;
 	position: relative;
+	vertical-align: middle;
+}
+#menu_wrapper{
+	border-bottom: solid 2px #f2f2f2;
+	width: 100%;
+	position: relative;
+	padding: 0 0 0 120px;
+}
+#snd_b li{
+	display: inline;
+	position: relative;
+	padding: 20px 15px 10px 15px;
+	vertical-align: middle;
+	font-size: 14px;
+	
+}
+#snd_b li a{
+	text-decoration: none;
+	color: #757575;
+
+
 }
