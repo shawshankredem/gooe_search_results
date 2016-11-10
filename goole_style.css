@@ -6,8 +6,7 @@ body{
 	top: -10;
 	left: -10;
 	position: relative;
-	width: 100%;
-	margin: 0;
+	   
 }
 #toplogo{
 	padding: 5px 5px 5px 5px;
@@ -50,6 +49,9 @@ body{
 #snd_b li a{
 	text-decoration: none;
 	color: #757575;
-
-
+}	
+#snd_b li a:hover{
+	font-weight: bold;
 }
+
+
